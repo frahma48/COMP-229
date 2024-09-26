@@ -1,0 +1,146 @@
+
+
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content img {
+  margin-right: 15px;
+}
+
+.header-content h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* Home content styling */
+.home-content {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url('/images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-section h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Mission styling */
+.hero-section h3 {
+  font-size: 2em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+/* Page link buttons */
+.page-links {
+  margin-top: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .hero-section h2 {
+    font-size: 2.5em;
+  }
+
+  .hero-section p {
+    font-size: 1em;
+  }
+
+  .button {
+    font-size: 1em;
+    padding: 12px 20px;
+  }
+}
+
+
+
+.contact-content, .thank-you-content {
+  padding: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.contact-form label {
+  margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
